@@ -57,7 +57,7 @@ vc ring colour by david
 /*breathing username*/
 .nameTag-H6kSJ0:hover {animation: breathingnametag 7.5s ease infinite;animation-delay: 15s;}@keyframes breathingnametag {0% {opacity: 1;}50% {opacity: 0;}70% {opacity: 0;}100% {opacity: 1;}}
 /*I LOVE PUGS, i mean i have a custom user popout lel*/
-#app-mount [data-user-id="709377715320651838"].userPopout-2j1gM4 {background-color: rgba(255, 255, 255, 0.158);background-image: url(https://i.imgur.com/fvdu6zk.gif);backdrop-filter: blur(500px);width: 700px!important;height: 359px!important;}
+#app-mount [data-user-id="709377715320651838"].userPopout-2j1gM4 {background-color: rgba(255, 255, 255, 0.158);background-image: url(https://i.imgur.com/fvdu6zk.gif);width: 700px!important;height: 359px!important;}
 #app-mount [data-user-id="709377715320651838"] .bodyInnerWrapper-2bQs1k {background: transparent;}
 #app-mount [data-user-id="709377715320651838"] .banner-1YaD3N {background: transparent!important;}.divider-1wtgZ3 {display: none;}
 #app-mount [data-user-id="709377715320651838"] .bannerOverlayPopout-1clJ34, .bannerOverlay-1uIerX  {width: 900px!important;background-color: transparent;}
@@ -289,7 +289,6 @@ background-color: #fff !important;
 /*online friends hover button to match blur activity background*/
 .actionButton-3-B2x- {
     background-color: rgba(255, 255, 255, 0.288);
-    backdrop-filter: blur(4px);
     border-radius: 5px;
 }
 /*unread and mention text*/
@@ -520,7 +519,6 @@ div[class*="noChannel-"],
   background-color: rgba(255, 255, 255, 0);
 }
 .channelTextArea-1FufC0, .channelTextArea-1FufC0 > .scrollableContainer-15eg7h {
-    backdrop-filter: blur(7px);
     background-color: rgba(255, 255, 255, 0.034);
 }
 .layers-OrUESM>.layer-86YKbF:first-child{
@@ -613,7 +611,6 @@ div[class*="noChannel-"],
 }
 .uploadModal-2ie9O_ {
     background-color: rgba(145, 145, 145, 0.178)!important;
-    backdrop-filter: blur(15px);
 }
 .footer-VCsJQY {
   background-color: rgba(0, 0, 0, 0)!important;
@@ -639,7 +636,6 @@ div[class*="noChannel-"],
 }
 .searchHeader-1r_ZSh, .message-24k8JL, .searchResultsWrap-5RVOkx, .message-G6O-Wv, .horizontalReverse-60Katr, .small-23Atuv, .scroller-18M1mG, .inline, .section-3G9aLW, .scrollbarGhostHairline-2LpzZ9, .DraftEditor-root, .card-16VQ8C, .spoilerText-27bIiA, .footer-GXWBBp, .textContainer-36wgKK, .checklistItem-37OOck, .previewContainer-1SS3uO, .tierBody-1d3UiS, .developerPortalCtaWrapper-2XNafh, .descriptionBox-1EKQKL, .radioBar-3w9XY-, .wrapper-24fR1R {
   background-color: rgba(0, 0, 0, 0.288)!important;
-  backdrop-filter: blur(10px);
 }
  .channelName-3w2Y3c {
    background-color: rgba(255, 255, 255, 0);
@@ -871,7 +867,6 @@ div[class*="noChannel-"],
 /*active now activity blur*/
 .itemCard-3Etziu {
     background-color: rgba(255, 255, 255, 0.288);
-    backdrop-filter: blur(4px);
     border-radius: 5px;
     border: none;
 }
@@ -1183,7 +1178,6 @@ code.hljs {
 /*blur menus*/
 .menu-1QACrS, .scroller-1bVxF5 { /*Right click panel*/
     background-color: rgba(255, 255, 255, 0.103)!important;
-    backdrop-filter: blur(15px);
     border-radius: 5px;
 }
 /*custom css editor colours*/
@@ -1393,7 +1387,7 @@ code.hljs {
   transition: all 0.20s;
 }
 /*custom user popout colour*/
-.userPopout-2j1gM4 {background-color: rgba(0, 0, 0, 0.719); backdrop-filter: blur(4px); }
+.userPopout-2j1gM4 {background-color: rgba(0, 0, 0, 0.719); }
 .footer-3naVBw {background-color: rgba(0, 0, 0, 0)!important;}
 .avatar-2Vndt_ {border: 6px solid transparent;background-color: transparent;}
 .bodyInnerWrapper-2bQs1k {background: transparent;}
@@ -1691,7 +1685,6 @@ div[class*="typeWindows-"]::after {
 /*transparent call background*/
 .wrapper-1gVUIN, .minimum-fXpVNc, .callContainer-HtHELf  {
   background: none!important;
-  backdrop-filter: blur(20px);
 }
 .root-u9h3Ui, .tile-2TcwiO {
   background: none;
@@ -1710,7 +1703,6 @@ div[class*="typeWindows-"]::after {
 .theme-dark .elevationBorderHigh-3drnJX {
   box-shadow: none!important;
   background: rgba(0, 0, 0, 0.555)!important;
-  backdrop-filter: blur(10px)!important;
 }
 .container-2McqkF {
   border-radius: 8px!important;
