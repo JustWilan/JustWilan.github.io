@@ -228,6 +228,7 @@
 }
 .wordmarkWindows-2dq6rw::before{
    background: var(--background-image);
+   background-position: var(--background-image-position, center);
    background-size: var(--background-image-size, cover);
    content: 'ComfyGray';
    font-size: 13px;
