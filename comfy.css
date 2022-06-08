@@ -230,6 +230,7 @@
    background: var(--background-image);
    background-position: var(--background-image-position, center);
    background-size: var(--background-image-size, cover);
+   position: absolute;
    content: 'ComfyGray';
    font-size: 13px;
    font-weight: 700;
@@ -259,7 +260,11 @@
 
 /* removes some stupid gradient bugs */
 .form-3gdLxP::before, .children-3xh0VB:after, .option-ayUoaq:after{
-    content: none;
+   background: var(--background-image);
+   background-position: var(--background-image-position, center);
+   background-size: var(--background-image-size, cover);
+   position: absolute;
+   content: none;
 }
 
 
