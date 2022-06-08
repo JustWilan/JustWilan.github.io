@@ -1705,6 +1705,9 @@ to {
 
 
 .username-h_Y3Us:before {
+   background: var(--background-image);
+   background-position: var(--background-image-position, center);
+   background-size: var(--background-image-size, cover);
     content                 :               "";
     position                :               absolute;
     width                   :               100%;
