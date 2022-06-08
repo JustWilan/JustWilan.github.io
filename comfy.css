@@ -218,7 +218,16 @@
 
 
 
-
+#app-mount::before {
+  content: "";
+  background: var(--background-image);
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* adds watermark */
 :root{
     --version-number: "1.0";
@@ -227,10 +236,6 @@
    display:none;
 }
 .wordmarkWindows-2dq6rw::before{
-   background: var(--background-image);
-   background-position: var(--background-image-position, center);
-   background-size: var(--background-image-size, cover);
-   position: absolute;
    content: 'ComfyGray';
    font-size: 13px;
    font-weight: 700;
